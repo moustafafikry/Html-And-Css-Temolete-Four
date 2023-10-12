@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./framework.file/framework.css">
+	<link rel="stylesheet" href="./css.file/normalize.css">
+	<link rel="stylesheet" href="./css.file/master.css">
+	<link rel="stylesheet" href="./css.file/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<title>ashboard</title>
+
+</head>
+<body>
+	<div class="page d-flex">
+		<div class="sidebar bg-white  p-relative" >
+			<h3 class="tr-capitalize p-relative text-c mt-0 fs-25">mostafa</h3>
+			<ul class="p-15">
+				<li>
+					<a class=" d-flex  align-center fs-14 c-black rad-6 p-20" href="./master.html">
+						<i class="fa-regular fa-chart-bar fa-fw"></i>
+						<span class="hide-mobile">dashboard</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex   align-center fs-14 c-black rad-6 p-20" href="./settings.html">
+						<i class="fa-solid fa-gear fa-fw"></i>
+						<span class="hide-mobile">settings</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex align-center fs-14 c-black rad-6 p-20" href="./profile.html">
+						<i class="fa-regular fa-user fa-fw"></i>
+						<span class="hide-mobile">profile</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./projects.html">
+						<i class="fa-solid fa-diagram-project fa-fw"></i>
+						<span class="hide-mobile">projects</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./courses.html">
+						<i class="fa-solid fa-graduation-cap fa-fw"></i>
+						<span class="hide-mobile">courses</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex active  align-center fs-14 c-black rad-6 p-20" href="./friends.html">
+						<i class="fa-regular fa-circle-user fa-fw"></i>
+						<span class="hide-mobile">friends</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./files.html">
+						<i class="fa-regular fa-file fa-fw"></i>
+						<span class="hide-mobile">files</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="plans.html">
+						<i class="fa-regular fa-credit-card fa-fw"></i>
+						<span class="hide-mobile">plans</span>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="content w-full ov-hidden" id="dashboard" >
+			<!-- start-head -->
+			<div class="head bg-white p-15 between-flex">
+				<div class="search p-relative">
+					<input class="p-10 rad-10 border-1" type="search" placeholder="type a keyword">
+				</div>
+				<div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+						<i class="fa-regular fa-bell fa-lg"></i>
+					</span>
+					<img class="rad-50"  src="./images/my-photo2.jpg" alt="">
+				</div>
+			</div>
+			<!-- end-head -->
+			<h1 class="p-relative tr-capitalize">friends</h1>
+			<div class="friends tr-capitalize">
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-01.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">ahmed nasser</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> javascript developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">99 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">15 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">25 articles</span>
+                            </div>
+                        </div>
+                        <span class="tr-uppercase">vip</span>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 02/10/2021</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-02.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">mostafa fekry</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> cloud developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">30 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">11 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">12 articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 02/08/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-03.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">omar ahmed</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> mobile developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">80 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">20 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">18 articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 02/06/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-04.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">shady nabil</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> back-end developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">70 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">30 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">18 articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 28/06/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-05.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">mohamed ibrahim</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> algorithm developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">80 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">30 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">18 articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 28/08/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-04.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">shady nabil</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> back-end developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">70 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">30 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">18 articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 28/06/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-02.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">mostafa fekry</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> cloud developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">30 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">11 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">12 articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 02/08/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-05.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">mohamed ibrahim</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> algorithm developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">80 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">30 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">18 articles</span>
+                            </div>
+                        </div>
+                        <span class="tr-uppercase">vip</span>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 28/08/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-01.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">ahmed nasser</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> javascript developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">99 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">15 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">25 articles</span>
+                            </div>
+                        </div>
+                        <span class="tr-uppercase">vip</span>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 02/10/2021</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bg-white p-20 p-relative rad-10">
+                    <div class="i">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="parent-one text-c pb-10">
+                        <img class="mb-10" src="./images/friend-03.jpg" alt="">
+                        <h3 class="m-0 fs-17 mb-10">omar ahmed</h3>
+                        <p class="m-0 c-grey fs-14 mb-10"> mobile developer</p>
+                    </div>
+                    <div class="parent-two">
+                        <div>
+                            <div>
+                                <i class=" fs-15 fa-regular fa-face-smile fa-fw"></i>
+                                <span class="fs-15">80 friend</span>
+                            </div>
+                            <div>
+                                <i class=" fs-15 fa-solid fa-code-commit fa-fw"></i>
+                                <span class="fs-15">20 projects</span>
+                            </div>
+                            <div>
+                                <i class="fs-15 fa-regular fa-newspaper fa-fw"></i>
+                                <span class="fs-15">18 articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-three">
+                        <span class="c-grey fs-13">joined 02/06/2020</span>
+                        <div>
+                            <a href="#">profile</a>
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</body>
+</html>

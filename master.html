@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./framework.file/framework.css">
+	<link rel="stylesheet" href="./css.file/normalize.css">
+	<link rel="stylesheet" href="./css.file/master.css">
+	<link rel="stylesheet" href="./css.file/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<title>ashboard</title>
+
+</head>
+<body>
+	<div class="page d-flex">
+		<div class="sidebar bg-white  p-relative" >
+			<h3 class="tr-capitalize p-relative text-c mt-0 fs-25">mostafa</h3>
+			<ul class="p-15">
+				<li >
+					<a id="dashboard" class="active d-flex  align-center fs-14 c-black rad-6 p-20"  href="./master.html">
+						<i class="fa-regular fa-chart-bar fa-fw"></i>
+						<span class="hide-mobile">dashboard</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./settings.html">
+						<i class="fa-solid fa-gear fa-fw"></i>
+						<span class="hide-mobile">settings</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./profile.html">
+						<i class="fa-regular fa-user fa-fw"></i>
+						<span class="hide-mobile">profile</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./projects.html">
+						<i class="fa-solid fa-diagram-project fa-fw"></i>
+						<span class="hide-mobile">projects</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./courses.html">
+						<i class="fa-solid fa-graduation-cap fa-fw"></i>
+						<span class="hide-mobile">courses</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./friends.html">
+						<i class="fa-regular fa-circle-user fa-fw"></i>
+						<span class="hide-mobile">friends</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./files.html">
+						<i class="fa-regular fa-file fa-fw"></i>
+						<span class="hide-mobile">files</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex  align-center fs-14 c-black rad-6 p-20" href="./plans.html">
+						<i class="fa-regular fa-credit-card fa-fw"></i>
+						<span class="hide-mobile">plans</span>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="content w-full ov-hidden" id="dashboard" >
+			<!-- start-head -->
+			<div class="head bg-white p-15 between-flex">
+				<div class="search p-relative">
+					<input class="p-10 rad-10 border-1" type="search" placeholder="type a keyword">
+				</div>
+				<div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+						<i class="fa-regular fa-bell fa-lg"></i>
+					</span>
+					<img class="rad-50"  src="./images/my-photo2.jpg" alt="">
+				</div>
+			</div>
+			<!-- end-head -->
+			<h1 class="p-relative tr-capitalize">dashboard</h1>
+			<div class="wrapper d-grid">
+				<div class="welcome p-relative bg-white rad-10 ov-hidden">
+					<div class="part-one p-20 between-flex">
+						<div>
+							<h2 class="tr-capitalize fs-25">welcome</h2>
+							<p class="tr-capitalize">mostafa</p>
+						</div>
+						<img src="./images/welcome (1).png" alt="">
+					</div>
+					<img class="avatar" src="./images/my-photo2.jpg" alt="">
+					<div class="part-two p-20 around-flex ">
+                        <div>
+							mostfafa fekry
+							<span>developer</span>
+						</div>
+                        <div>
+							elements
+							<span>projects</span>
+						</div>
+                        <div>
+							$8500
+							<span>earned</span>
+						</div>
+					</div>
+					<a class="d-block fs-14 c-white tr-capitalize rad-6" href="#profile">profile</a>
+				</div>
+                <div class="quick p-20 bg-white ov-hidden rad-10" >
+					<h2 class="tr-capitalize">quick draft</h2>
+					<p class="tr-capitalize">write a draft for your ideas</p>
+					<form action="">
+						<input class="b-none p-10 rad-6" type="text" placeholder="title">
+						<textarea class="b-none p-10 d-block rad-6" name="textarea" id="" cols="30" rows="10" placeholder="your thought"></textarea>
+						<input class="c-white b-none rad-6 " type="submit" value="save">
+					</form>
+				</div>
+				<div class="yearly p-20 bg-white ov-hidden rad-10">
+					<h2 class="tr-capitalize">yearly targets</h2>
+					<p class="tr-capitalize">targets of the year</p>
+					<div class="first-row d-flex mb-20" >
+						<div class="icons centet-flex">
+						<i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>	
+						</div>
+						<div class="detils">
+							<span class="d-block">money</span>
+							<span class="d-block fw-bold">$20.000</span>
+							<div class="progress p-relative">
+								<span class="bg-blue blue bc-blue">
+									<span class="c-white fs-14 rad-6 bc-blue">80%</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="thecound-row d-flex mb-20">
+						<div class="icons centet-flex">
+						<i class="fa-solid fa-code fa-lg c-orange "></i>	
+						</div>
+						<div class="detils">
+							<span class="d-block">project</span>
+							<span class="d-block fw-bold">24</span>
+							<div class="progress p-relative">
+								<span class="bg-blue blue bc-orange">
+									<span class="c-white fs-14 rad-6 bc-orange">55%</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="third-row d-flex mb-20" >
+						<div class="icons centet-flex">
+						<i class="fa-solid fa-dollar-sign fa-lg c-green"></i>	
+						</div>
+						<div class="detils">
+							<span class="d-block">money</span>
+							<span class="d-block fw-bold">$20.000</span>
+							<div class="progress p-relative">
+								<span class="bg-blue blue bc-green ">
+									<span class="c-white fs-14 rad-6 bc-green">75%</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tickets bg-white ov-hidden p-20 rad-10" >
+					<h2 class="tr-capitalize">tickets statistics</h2>
+					<p class="c-grey tr-capitalize">every about support tickets</p>
+					<div class="up">
+						<div class="box rad-10 text-c" >
+							<i class="fa-regular fa-rectangle-list fa-2x c-orange pb-10"></i>
+							<div class="info ">
+								<span class="fs-25 fw-bold pb-10">2500</span>
+								<span>total</span>
+							</div>
+						</div>
+						<div class="box rad-10 text-c">
+							<i class="fa-solid fa-spinner fa-2x c-blue pb-10"></i>
+							<div class="info">
+								<span class="fs-25 fw-bold pb-10">500</span>
+								<span>pending</span>
+							</div>
+						</div>
+						<div class="box rad-10 text-c">
+							<i class="fa-regular fa-circle-check fa-2x c-green pb-10"></i>
+							<div class="info">
+								<span class="fs-25 fw-bold pb-10">1900</span>
+								<span>closed</span>
+							</div>
+						</div>
+						<div class="box rad-10 text-c">
+							<i class="fa-regular fa-rectangle-xmark fa-2x c-red pb-10"></i>
+							<div class="info">
+								<span class="fs-25 fw-bold pb-10">100</span>
+								<span>deleted</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="latest bg-white p-20 ov-hidden rad-10">
+					<h2 class="fs-25 fw-bold tr-capitalize"  >latest news</h2>
+					<div class="box ">
+						<div class="part-one ">
+							<img src="./images/news-01.png" alt="">
+							<div class="info tr-capitalize">
+								<p class="fw-bold fs-18">created sass section</p>
+								<p class="c-grey ">new sass examples & turolials</p>
+							</div>
+						</div>
+						<div>3 days ago</div>
+					</div>
+					<div class="box">
+						<div class="part-one ">
+							<img src="./images/news-02.png" alt="">
+							<div class="info tr-capitalize">
+								<p class="fw-bold fs-18">changed the design</p>
+								<p class="c-grey">a brand new website design</p>
+							</div>
+						</div>
+						<div>5 days ago</div>
+					</div>
+					<div class="box">
+						<div class="part-one">
+							<img src="./images/news-03.png" alt="">
+							<div class="info tr-capitalize">
+								<p class="fw-bold fs-18">team increased</p>
+								<p class="c-grey">3 developers joined the team</p>
+							</div>
+						</div>
+						<div>7 days ago</div>
+					</div>
+					<div class="box">
+						<div class="part-one">
+							<img src="./images/news-04.png" alt="">
+							<div class="info tr-capitalize">
+								<p class="fw-bold fs-18">added payment gateway</p>
+								<p class="c-grey">many new payment gateways added</p>
+							</div>
+						</div>
+						<div>9 days ago</div>
+					</div>
+				</div>
+				<div class="tasks bg-white p-20 rad-10">
+					<h2 class="fs-25 tr-capitalize">latest tasks</h2>
+					<div class="box three-box">
+						<div class="info tr-capitalize">
+							<h3>record one new video</h3>
+							<p>record python create exe project</p>
+						</div>
+						<i class="fa-regular fa-trash-can delete"></i>
+					</div>
+					<div class="box three-box">
+						<div class="info tr-capitalize">
+							<h3>write article</h3>
+							<p>write low level vs hight level languages</p>
+						</div>
+						<i class="fa-regular fa-trash-can delete"></i>
+					</div>
+					<div class="box three-box">
+						<div class="info tr-capitalize">
+							<h3>finish project</h3>
+							<p>publish academy programming project</p>
+						</div>
+						<i class="fa-regular fa-trash-can delete"></i>
+					</div>
+					<div class="box">
+						<div class="info op-5 tr-capitalize">
+							<del><h3>attend the meeting</h3></del>
+							<del><p>attend the project business analysis meeting</p></del>
+						</div>
+						<i class="fa-regular fa-trash-can delete op-5"></i>
+					</div>
+					<div class="box">
+						<div class="info tr-capitalize">
+							<h3>finish lesson</h3>
+							<p>finish teaching flex box</p>
+						</div>
+						<i class="fa-regular fa-trash-can delete"></i>
+					</div>
+				</div>
+				<div class="top-search bg-white p-20 rad-10">
+					<h2 class="tr-capitalize fs-25">top search items</h2>
+					<div class="box c-grey tr-capitalize">
+						<div>keyward</div>
+						<span>search count</span>
+					</div>
+					<div class="box tr-capitalize">
+						<div>programming</div>
+						<span>220</span>
+					</div>
+					<div class="box tr-capitalize">
+						<div>javascript</div>
+						<span>180</span>
+					</div>
+					<div class="box tr-capitalize">
+						<div>php</div>
+						<span>160</span>
+					</div>
+					<div class="box tr-capitalize">
+						<div>code</div>
+						<span>145</span>
+					</div> 
+					<div class="box tr-capitalize">
+						<div>design</div>
+						<span>110</span>
+					</div>
+					<div class="box tr-capitalize">
+						<div>logic</div>
+						<span>95</span>
+					</div>
+				</div>
+				<div class="uploads bg-white tr-capitalize p-20 rad-10">
+					<h2>latest uploads</h2>
+                    <div class="box">
+						<div class="up">
+							<div class="part-one">
+								<img src="./images/pdf.svg" alt="">
+								<div class="info">
+									<span>my-file.pdf</span>
+									<span>elzero</span>
+								</div>
+							</div>
+							<div>2.9mb</div>
+						</div>
+					</div>
+                    <div class="box">
+						<div class="up">
+							<div class="part-one">
+								<img src="./images/avi.svg" alt="">
+								<div class="info">
+									<span>my-video-file.avi</span>
+									<span>admin</span>
+								</div>
+							</div>
+							<div>4.9mb</div>
+						</div>
+					</div>
+                    <div class="box">
+						<div class="up">
+							<div class="part-one">
+								<img src="./images/psd.svg" alt="">
+								<div class="info">
+									<span>my-psd-file.pdf</span>
+									<span>osama</span>
+								</div>
+							</div>
+							<div>4.5mb</div>
+						</div>
+					</div>
+                    <div class="box">
+						<div class="up">
+							<div class="part-one">
+								<img src="./images/zip.svg" alt="">
+								<div class="info">
+									<span>my-zip-file.pdf</span>
+									<span>user</span>
+								</div>
+							</div>
+							<div>8.9mb</div>
+						</div>
+					</div>
+                    <div class="box">
+						<div class="up">
+							<div class="part-one">
+								<img src="./images/dll.svg" alt="">
+								<div class="info">
+									<span>my-dll-file.pdf</span>
+									<span>admin</span>
+								</div>
+							</div>
+							<div>4.9mb</div>
+						</div>
+					</div>
+                    <div class="box">
+						<div class="up">
+							<div class="part-one">
+								<img src="./images/eps.svg" alt="">
+								<div class="info">
+									<span>my-eps-file.pdf</span>
+									<span>designer</span>
+								</div>
+							</div>
+							<div>8.9mb</div>
+						</div>
+					</div>
+				</div>
+				<div class="last-project ov-hidden p-relative bg-white p-20 tr-capitalize rad-10">
+					<h2>last project progress</h2>
+					<div class="up">
+						<p>got the project </p>
+						<p>started the project</p>
+						<p>the project about to finish</p>
+						<p>test the project</p>
+						<p>finish the project & get money</p>
+					</div>
+					<img src="./images/project.png" alt="">
+				</div>
+				<div class="reminders bg-white p-20 tr-capitalize rad-10">
+					<h2>reminders</h2>
+					<div class="box">
+						<p>check my tasks list</p>
+						<span>28/09/2022-12:00am</span>
+					</div>
+					<div class="box">
+						<p>check my projects</p>
+						<span>26/10/2022-12:00am</span>
+					</div>
+					<div class="box">
+						<p>call all my clients</p>
+						<span>05/11/2022-12:00am</span>
+					</div>
+					<div class="box">
+						<p>finish the development workshop</p>
+						<span>20/12/2022-12:00am</span>
+					</div>
+				</div>
+				<div class="latest-post bg-white p-20 tr-capitalize rad-10">
+					<h2>latest post</h2>
+					<div class="first">
+						<div class="box">
+							<img src="./images/my-photo2.jpg" alt="">
+							<div class="info">
+								<div class="fw-bold">mostafa fekry</div>
+								<span>about 3 hours ago</span>
+							</div>
+						</div>
+					</div>
+					<div class="thecound">
+						<p>you can fool all of the people some of the time, and some of the people all of the fime, but you cant fool all of the people all of the time.</p>
+					</div>
+					<div class="third">
+						<div>
+							<i class="fa-regular fa-heart"></i>
+							<span>1.8k</span>
+						</div>
+						<div>
+							<i class="fa-regular fa-comment"></i>
+							<span>500</span>
+						</div>
+					</div>
+				</div>
+				<div class="social bg-white p-20 tr-capitalize rad-10">
+					<h2>social media stats</h2>
+					<div class="up">
+						<div class="box">
+							<div class="parent">
+								<i class="fa-brands fa-twitter fa-2x"></i>
+								<span>90K follwers</span>
+							</div>
+							<a href="#">follow</a>
+						</div>
+						<div class="box">
+                            <div class="parent">
+								<i class="fa-brands fa-facebook-f fa-2x"></i>
+								<span>2M like</span>
+							</div>
+							<a href="#">like</a>
+						</div>
+						<div class="box">
+                            <div class="parent">
+								<i class="fa-brands fa-youtube fa-2x"></i>
+								<span>1M subs</span>
+							</div>
+							<a href="#">subscribe</a>
+						</div>
+						<div class="box">
+                            <div class="parent">
+								<i class="fa-brands fa-linkedin fa-2x"></i>
+								<span>70K follwers</span>
+							</div>
+							<a href="#">follow</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="projects bg-white p-20 tr-capitalize rad-10">
+				<h2>projects</h2>
+				<div class="responsive-taple">
+					<table>
+						<thead>
+							<tr>
+								<td>name</td>
+								<td>finish data</td>
+								<td>client</td>
+								<td>price</td>
+								<td>team</td>
+								<td>status</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>ministry wiipedia</td>
+								<td>10 may 2022</td>
+								<td>ministry</td>
+								<td>$5300</td>
+								<td>
+									<img src="./images/team-01.png" alt="">
+									<img src="./images/team-02.png" alt="">
+									<img src="./images/team-03.png" alt="">
+									<img src="./images/team-05.png" alt="">
+								</td>
+								<td>
+									<a href="#">pending</a>
+								</td>
+							</tr>
+							<tr>
+								<td>mostafa shop</td>
+								<td>12 oct 2021</td>
+								<td>mostafa company</td>
+								<td>$1500</td>
+								<td>
+									<img src="./images/team-01.png" alt="">
+									<img src="./images/team-02.png" alt="">
+									<img src="./images/team-05.png" alt="">
+								</td>
+								<td>
+									<a href="#">in progress</a>
+								</td>
+							</tr>
+							<tr>
+								<td>bouba app</td>
+								<td>05 sep 2021</td>
+								<td>bouba</td>
+								<td>$800</td>
+								<td>
+									<img src="./images/team-01.png" alt="">
+									<img src="./images/team-03.png" alt="">
+								</td>
+								<td>
+									<a href="#">completed</a>
+								</td>
+							</tr>
+							<tr>
+								<td>mohamed website</td>
+								<td>22 may 2021</td>
+								<td>mohamed</td>
+								<td>$600</td>
+								<td>
+									<img src="./images/team-01.png" alt="">
+									<img src="./images/team-02.png" alt="">
+								</td>
+								<td>
+									<a href="#">completed</a>
+								</td>
+							</tr>
+							<tr>
+								<td>sayed website</td>
+								<td>24 may 2021</td>
+								<td>sayed</td>
+								<td>$300</td>
+								<td>
+									<img src="./images/team-01.png" alt="">
+									<img src="./images/team-02.png" alt="">
+								</td>
+								<td>
+									<a href="#">rejected</a>
+								</td>
+							</tr>
+							<tr>
+								<td>arena application</td>
+								<td>01 mar 2021</td>
+								<td>arena company</td>
+								<td>$2600</td>
+								<td>
+									<img src="./images/team-01.png" alt="">
+									<img src="./images/team-02.png" alt="">
+									<img src="./images/team-03.png" alt="">
+									<img src="./images/team-05.png" alt="">
+								</td>
+								<td>
+									<a href="#">completed</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
